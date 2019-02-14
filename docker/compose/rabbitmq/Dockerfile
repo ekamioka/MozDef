@@ -2,7 +2,7 @@ FROM centos:7
 
 LABEL maintainer="mozdef@mozilla.com"
 
-ENV RABBITMQ_VERSION 3.3.5
+ENV RABBITMQ_VERSION 3.7.11
 
 RUN \
   yum makecache fast && \
